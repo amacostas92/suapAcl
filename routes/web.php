@@ -19,6 +19,10 @@ Route::get('/', function () {
 
 Route::resource('customers', 'CustomerController');
 Route::resource('admins', 'AdminController');
+Route::resource('positions', 'PositionController');
+Route::resource('areas', 'AreaController');
+Route::resource('voters', 'VoterController');
+Route::resource('nominees', 'NomineeController');
 
 Auth::routes();
 
